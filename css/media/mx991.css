@@ -1,0 +1,91 @@
+
+/*  */
+
+@media (max-width: 991px) {
+
+    /* home */
+    .home .home-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    /* .home .home-img {
+        display: none;
+    } */
+
+    .home .container .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .home .home-img {
+        /* margin-top: -20%; */
+        flex: 0 0 100%;
+        max-width: 40%;
+        text-align: center;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    /* .home-img::after {
+        bottom: -80px;
+    } */
+
+    .home .home-info {
+        margin-top: 20%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    h3.my-profession span {
+        display: block;
+    }
+
+    /* service */
+    .service .service-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+
+    /* about  */
+    /* .about .about-content .education,
+    .about .about-content .experience {
+        flex: 0 0 100%;
+        max-width: 100%;
+    } */
+
+
+
+    /* protfolio */
+    .portfolio .portfolio-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+
+
+    /* contact */
+    .contact .contact-info-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}

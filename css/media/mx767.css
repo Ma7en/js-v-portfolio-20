@@ -1,0 +1,37 @@
+
+@media (max-width: 767px) {
+
+    /* aside */
+    .aside .nav-toggler.open {
+        top: 70px;
+    }
+
+
+
+    /* about  */
+    .about .about-content .personal-info,
+    .about .about-content .skills,
+    .about .about-content .education,
+    .about .about-content .experience,
+    .service .service-item, 
+    .portfolio .portfolio-item,
+    .contact .contact-info-item,
+    .contact .contact-form .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
